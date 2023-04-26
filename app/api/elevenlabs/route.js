@@ -12,7 +12,7 @@ export async function POST(request) {
         headers: {
           accept: "audio/mpeg",
           "Content-Type": "application/json",
-          "xi-api-key": process.env.ELEVENLABS_API_KEY,
+          "xi-api-key": "8547723f292cc74ab087573f175debcf",
         },
         body: JSON.stringify({
           text: message,
